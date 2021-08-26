@@ -1,0 +1,35 @@
+{
+  "name": "sample_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekdhadwal/sample_project.git"
+  },
+  "author": "Abhishek Dhadwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekdhadwal/sample_project/issues"
+  },
+  "homepage": "https://github.com/abhishekdhadwal/sample_project#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.1.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-swagger": "^14.2.4",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "ts-mongoose": "0.0.24"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.2"
+  }
+}
