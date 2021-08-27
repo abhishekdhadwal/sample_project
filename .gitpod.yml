@@ -5,7 +5,7 @@ tasks :
 
   - name : install node modules and run server
     init : npm install # runs during prebuild
-    command : npm run dev
+    command : npm run test
     
 image:
   file: .gitpod.dockerfile

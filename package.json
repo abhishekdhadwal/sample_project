@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
+    "build": "tsc --build && cp .env ./build/.env",
     "dev": "ts-node server.ts",
     "test": "jest"
   },
